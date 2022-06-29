@@ -25,3 +25,10 @@ git remote origin: crea un repositorio remoto al que le da el nombre origin para
 
 git push -u origin master: Empuja nuestro repositorio local a nuestro repositorio remoto (u: vincula repositorio local con remoto) empuja nuestro repositorio de nombre origin a nuestro repositorio branch de nombre master
 
+git rm --cashed -r . : Elimina los archivos que hayamos colocado por error en con git add
+
+git clone: Sirve para obtener los repositorios de github Example "git clone https://github.com/austinzheng/swift-2048.git"
+
+git branch: Crea una nueva rama en github Example "git branch secondary-branch", el comando solo me muestra todos los branch que tengo en mi repositorio
+
+git checkout: Me permite cambiarme entre los branch, Example "git checkout secondary-branch"
