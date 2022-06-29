@@ -31,4 +31,4 @@ git clone: Sirve para obtener los repositorios de github Example "git clone http
 
 git branch: Crea una nueva rama en github Example "git branch secondary-branch", el comando solo me muestra todos los branch que tengo en mi repositorio
 
-
+git checkout: Me permite cambiarme entre los branch, Example "git checkout secondary-branch"
