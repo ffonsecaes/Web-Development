@@ -11,4 +11,6 @@ Salir sin grabar los cambios "Esc : qa!"
 Iniciar el proceso de repositorios en la ubicación del proyecto "git init"
 ver todo el contenido incluso ocultos "ls -a"
 
+git status: me muestra los archivos que se encuentran en el area de preparación para ser confirmados
 
+git commit: Confirma los archivos para enviar a git repositorios
