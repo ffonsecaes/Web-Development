@@ -1,0 +1,27 @@
+Aprendiendo a utilizar Git & GitHub
+//Comandos que puedo usar con vim
+vim: Abre los archivos de texto desde Hyperterminal
+	Example: vim chapter1.txt
+
+Dentro del archivo para habilitar la edición utilizar "i"
+Para grabar los cambios del archivo presionar "Esc :w"
+Salir del archivo "Esc :q"
+Salir sin grabar los cambios "Esc : qa!"
+
+Iniciar el proceso de repositorios en la ubicación del proyecto "git init"
+ver todo el contenido incluso ocultos "ls -a"
+
+git status: me muestra los archivos que se encuentran en el area de preparación para ser confirmados
+
+git commit -m "Initial Project": Confirma los archivos para enviar a git repositorios y les agrega un comentario para buenas prácticas
+
+git log: Muestra los archivos que han sido enviados a repositorios
+
+git add: sirve para agregar los archivos git para poder ser confirmados (git add . //Agrega todos los archivos de una carpeta || git add chapter1.txt //Solo agrega ese archivo)
+
+git diff chapter3.txt: Nos da las diferencias de comandos entre nuestros 2 archivos el actual y el mi backup (HEAD)
+
+git remote origin: crea un repositorio remoto al que le da el nombre origin para mejores prácticas
+
+git push -u origin master: Empuja nuestro repositorio local a nuestro repositorio remoto (u: vincula repositorio local con remoto) empuja nuestro repositorio de nombre origin a nuestro repositorio branch de nombre master
+
