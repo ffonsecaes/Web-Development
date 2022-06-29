@@ -1,0 +1,14 @@
+Aprendiendo a utilizar Git & GitHub
+//Comandos que puedo usar con vim
+vim: Abre los archivos de texto desde Hyperterminal
+	Example: vim chapter1.txt
+
+Dentro del archivo para habilitar la edición utilizar "i"
+Para grabar los cambios del archivo presionar "Esc :w"
+Salir del archivo "Esc :q"
+Salir sin grabar los cambios "Esc : qa!"
+
+Iniciar el proceso de repositorios en la ubicación del proyecto "git init"
+ver todo el contenido incluso ocultos "ls -a"
+
+
